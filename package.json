@@ -1,0 +1,15 @@
+  {
+  	"name": "products",
+  	"version": "0.0.1",
+  	"main": "main.js",
+  	"dependencies": {
+  		"express": "*",
+  		"serve-favicon": "*",
+  		"morgan": "*",
+  		"method-override": "*",
+  		"body-parser": "*",
+  		"errorhandler": "*",
+  		"express-session": "*",
+  		"mongoose": "*"
+  	}
+  }
