@@ -7,6 +7,8 @@ app.use(bodyParser.urlencoded({
 	extended: true
 }));
 
+app.use(express.static('./web'));
+
 var router = require('./controller/router.js')
 app.use('/api', router)
 
